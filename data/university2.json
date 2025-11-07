@@ -1,22 +1,24 @@
 {
   "name": "University Two",
   "details": {
-    "overview": "Premier institution for business and engineering education.",
+    "overview": "Premier institution for business and engineering education in Bangalore.",
     "courses": [
       {
-        "name": "B.Tech in Computer Science",
+        "name": "B.Tech in Artificial Intelligence",
         "duration": "4 years",
         "eligibility": "12th grade with PCM"
       },
       {
-        "name": "MBA in Finance",
+        "name": "MBA in Marketing",
         "duration": "2 years",
         "eligibility": "Bachelor's degree"
       }
     ],
     "placements": {
-      "averagePackage": 800000,
-      "topCompanies": ["Google", "Amazon", "Microsoft"]
-    }
+      "placementRate": "92%",
+      "averagePackage": 900000,
+      "topCompanies": ["Microsoft", "Deloitte", "Infosys"]
+    },
+    "tagline": "Shaping future leaders in business and technology."
   }
 }
