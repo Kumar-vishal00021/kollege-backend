@@ -43,9 +43,11 @@ router.get('/fees', (req, res) => {
 
 // Additional Simple JSON API (e.g., for facilities)
 router.get('/facilities', (req, res) => {
-  const data = loadData('facilities.json');
-  if (!data) return res.status(500).json({ error: 'Failed to load data' });
-  res.json(data);
+  res.json({
+    "library": "State-of-the-art with 50,000+ books",
+    "labs": "Advanced computer and science labs",
+    "sports": "Cricket ground, gym, and swimming pool"
+  });
 });
 
 // Additional Nested JSON API (e.g., for placements)
