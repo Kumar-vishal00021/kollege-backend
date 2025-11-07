@@ -1,0 +1,18 @@
+[
+  {
+    "course": "B.Tech",
+    "feeRange": "₹1,50,000 - ₹2,50,000 per year",
+    "details": {
+      "tuition": 200000,
+      "hostel": 50000
+    }
+  },
+  {
+    "course": "MBA",
+    "feeRange": "₹3,00,000 - ₹4,00,000 per year",
+    "details": {
+      "tuition": 350000,
+      "hostel": 50000
+    }
+  }
+]

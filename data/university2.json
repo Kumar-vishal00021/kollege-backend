@@ -1,0 +1,22 @@
+{
+  "name": "University Two",
+  "details": {
+    "overview": "Premier institution for business and engineering education.",
+    "courses": [
+      {
+        "name": "B.Tech in Computer Science",
+        "duration": "4 years",
+        "eligibility": "12th grade with PCM"
+      },
+      {
+        "name": "MBA in Finance",
+        "duration": "2 years",
+        "eligibility": "Bachelor's degree"
+      }
+    ],
+    "placements": {
+      "averagePackage": 800000,
+      "topCompanies": ["Google", "Amazon", "Microsoft"]
+    }
+  }
+}
