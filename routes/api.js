@@ -1,4 +1,7 @@
 const express = require('express');
+const  cors = require("cors");
+const { createProxyMiddleware } = require("http-proxy-middleware");
+
 const fs = require('fs');
 const path = require('path');
 const router = express.Router();
@@ -13,6 +16,18 @@ const loadData = (fileName) => {
     return null;
   }
 };
+router.use(cors());
+
+router.use(
+  "/leetcode",
+  createProxyMiddleware({
+    target: "https://leetcode.com",
+    changeOrigin: true,
+    pathRewrite: {
+      "^/leetcode": "/graphql",
+    },
+  })
+);
 
 // Simple JSON API for University 1
 router.get('/university1', (req, res) => {
