@@ -18,7 +18,7 @@ const loadData = (fileName) => {
 };
 router.use(cors());
 
-router.get(
+router.post(
   "/leetcode",
   createProxyMiddleware({
     target: "https://leetcode.com",
